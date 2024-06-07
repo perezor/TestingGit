@@ -1,0 +1,11 @@
+mkdir TestingGit # create directory named TestingGit
+cd TestingGit # enter the directory (*c*hange *d*ir)
+git init # tells git to start tracking this folder (it creates .git folder)
+touch README.md # create a file
+git status # inspect the working tree and staging area
+git add README.md # moving the README.md file to the staging area, all files added to the staging area will be ready for the next commit
+git commit -m “This is the commit message” # creates the commit
+git log # inspect all logs tracked by git
+git checkout 534kjthwerlktjewhl5k4j45 # move HEAD to a different commit by the id (you can copy the id from the `git log` command)
+git remote add origin http://github.or……..git # connect the local project to a remote server (in this case it’s github’s server)
+git push —set-upstream origin master # pushing the current HEAD to the server
